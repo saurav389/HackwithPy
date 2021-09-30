@@ -33,7 +33,7 @@ try:
 		spoof(target_ip,gateway_ip)
 		spoof(gateway_ip,target_ip)
 		count+=1
-		print("\r[+] Packet sent:",str(count)),
+		print("\r[+] Packet sent:"+str(count)),
 		sys.stdout.flush()
 		time.sleep(2)
 except Exception as error:
